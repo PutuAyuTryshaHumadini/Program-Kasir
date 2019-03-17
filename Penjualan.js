@@ -23,10 +23,10 @@ export default class PENJUALAN extends Component {
 
   render() {
     return (
-      <View style = {{flex:1,backgroundColor:'#bbdefb'}}>
+      <View style = {{flex:1,backgroundColor:'#E0FFFF'}}>
 
-        <View style={{backgroundColor:'#2196f3'}}>
-           <Text style = {{padding: 10, fontSize: 20, color: 'white', textAlign:'center'}} >
+        <View style={{backgroundColor:'#008B8B'}}>
+           <Text style = {{padding: 10, fontSize: 20, color: 'black', textAlign:'center'}} >
             PENJUALAN
           </Text>
          </View>
@@ -57,14 +57,14 @@ export default class PENJUALAN extends Component {
             />
        </View>
 
-        <View style={{margin:20, backgroundColor:'#90caf9'}}>
+        <View style={{margin:20, backgroundColor:'#008B8B'}}>
           <Text style = {{padding: 10, fontSize: 20}} >
               Jumlah Beli =  {this.state.JumlahBeli} {"\n"}
               JumlahHarga=  {this.state.JumlahHarga} {"\n"}
               Total = {this.state.Total}
           </Text>
 
-          <View style={{margin:20,padding: 10, backgroundColor:'#e3f2fd'}}>
+          <View style={{margin:20,padding: 10, backgroundColor:'#008B8B'}}>
               <TextInput style = {{height: 40}}
               placeholder="Uang Bayar"
               onChangeText={(Bayar)=>this.setState({Bayar})}
